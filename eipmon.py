@@ -28,7 +28,7 @@ def append_text_file(filename, data):
     """Writes data to a text file in appending mode.
 
     Kwargs:
-        filename -- e.g. 'log.txt'; will be created if it doesn't exist
+        filename -- e.g. 'log.txt', will be created if it doesn't exist
         data -- must be a string
     """
     with open(filename, 'a') as f:
