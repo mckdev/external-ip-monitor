@@ -1,2 +1,7 @@
 # external_ip_monitor
-A script which checks your external IP address in regular intervals and logs the results.
+Simple script which checks your external IP address in regular intervals and logs the results.
+
+## Requirements:
+* Python 3
+
+No external libraries required.
