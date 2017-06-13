@@ -94,7 +94,7 @@ if __name__ == '__main__':
             # Try to validate user input by turning it into a float
             validated_input = float(user_input)
             # If user input passes float conversion, start the program
-            main(float(user_input))
+            main(validated_input)
         except ValueError:
             # If float conversion fails, request user input again
             user_input = input('Input error. Please provide a valid number: ')
