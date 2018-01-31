@@ -70,7 +70,7 @@ def main(interval):
         interval -- should be a float, represents number of seconds the
         script sleeps between runs
     """
-    url = 'http://www.whatismyip.org/'  # This can work with other websites
+    url = 'http://www.whatismyip.org/homepage/'  # This can work with other websites
     while True:
         html = get_html(url)
         ip = extract_ip(html)
